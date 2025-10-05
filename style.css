@@ -18,19 +18,19 @@ nav {
     display: flex;
     Justify-content: space-between;
     align-items:center;
-    background-color: #0044cc;
-    color:white;
+    background-color: #222222; /* Dark grey background*/
+    color: #FFFFFF;            /* Text color*/
     padding: 15px 40px;
-    position: sticky;
+    position: relative;
     top: 0;
-    z-index: 1000;
-    
+    font-family: 'Arial', sans-serif
 }
 
-/* Logp (My name) */
+/* Logp styling (My name) */
 .logo {
-    font-size:1.5rem;
-    font-weight:bold;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
     letter-spacing:1px;
 }
 
@@ -43,7 +43,7 @@ nav {
 }
 /* Navigatin links*/
 .nav-links a {
-    color: white;
+    color: #FFFFFF; /* White links */
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
@@ -51,7 +51,7 @@ nav {
 
 /* Hover effect */
 .nav-links a:hover {
-    color: #ff9800;
+    color: #ff9800;     /* Orange accent on hover */
 }
 nav ul {
     list-style: none;
