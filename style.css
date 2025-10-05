@@ -15,13 +15,44 @@ body{
 }
 
 nav {
+    display: flex;
+    Justify-content: space-between;
+    align-items:center;
     background-color: #0044cc;
+    color:white;
+    padding: 15px 40px;
     position: sticky;
     top: 0;
     z-index: 1000;
     
 }
 
+/* Logp (My name) */
+.logo {
+    font-size:1.5rem;
+    font-weight:bold;
+    letter-spacing:1px;
+}
+
+/* Navigation list */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    
+}
+/* Navigatin links*/
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    color: #ff9800;
+}
 nav ul {
     list-style: none;
     display: flex;
