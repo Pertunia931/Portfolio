@@ -119,6 +119,13 @@ p, li {
         color: #FF9800;
     }
 
+    .project p {
+        margin: 5px 0;
+    }
+
+    .project strong {
+        color: #0044cc;
+    }
     /* Footer*/
 footer{
     text-align: center;
