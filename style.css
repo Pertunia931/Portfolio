@@ -165,6 +165,60 @@ p, li {
     .project strong {
         color: #0044cc;
     }
+
+    .hero-container {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0044cc, #6fa1f2);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.hero-buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 2px solid white;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #0044cc;
+}
+
+.btn-primary {
+  background-color: #ff9900;
+  border-color: #ff9900;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  color: #ff9900;
+}
+
+    section {
+  padding: 50px 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background-color: white;
+}
+#about { background-color: #f0f8ff; }
+#projects { background-color: #fff8f0; }
+#experience { background-color: #f8fff0; }
+#skills { background-color: #f0fff8; }
+#contact { background-color: #fff0f8; }
+
+
     /* Footer*/
 footer{
     text-align: center;
