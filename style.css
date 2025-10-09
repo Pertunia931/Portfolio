@@ -67,6 +67,22 @@ nav .logo {
 }
 
 /* ------------------- Sections ------------------- */
+
+.about-section {
+  display: flex;
+  justify-content: center;    /* horizontal center */
+  align-items: center;        /* vertical center */
+  height: 100vh;              /* full viewport height */
+  text-align: center;         /* center text */
+  background-color: #f9f9f9;  /* optional background color */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.section-content {
+  max-width: 700px;
+}
+
 .section {
   padding: 6rem 2rem;
   text-align: center;
@@ -75,26 +91,7 @@ nav .logo {
   transition: all 1s ease-out;
 }
 
-/* Home Section */
-.home-section {
-  background: linear-gradient(135deg, #0B1D3A, #00BFA6);
-  color: #FFFFFF;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
 
-.home-section h1 {
-  font-size: 2.5rem;
-  margin-bottom: 1rem;
-}
-
-.home-section p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-}
 
 /* ------------------- Buttons ------------------- */
 .btn-primary {
