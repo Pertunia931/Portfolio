@@ -107,6 +107,13 @@ nav {
   max-width: 700px;
 }
 
+.about-section .btn-primary {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Skills Section */
 .skills-section .cards-container {
   display: flex;
