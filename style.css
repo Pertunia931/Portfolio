@@ -68,7 +68,7 @@ nav .logo {
 
 /* ------------------- Sections ------------------- */
 
-.about-section {
+.home-section {
   display: flex;
   justify-content: center;    /* horizontal center */
   align-items: center;        /* vertical center */
