@@ -85,4 +85,5 @@ May 2025 – Oct 2025
 ## How to Run:
 1. Clone the repository:
 ```bash
-git clone https://github.com/Pertunia931/personal-portfolio.git
+https://github.com/Pertunia931/Portfolio/edit/main/README.md
+](https://github.com/Pertunia931/Portfolio)
