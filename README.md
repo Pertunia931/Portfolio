@@ -85,4 +85,3 @@ May 2025 – Oct 2025
 ## How to Run:
 1. Clone the repository:
 ```bash
-(https://github.com/Pertunia931/Portfolio)
